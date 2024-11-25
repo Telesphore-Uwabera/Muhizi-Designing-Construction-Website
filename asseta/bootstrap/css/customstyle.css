@@ -1,0 +1,18 @@
+.menus ul li{
+	list-style: none;
+	display: inline-block;
+	width: 80px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.menus ul li a{
+	display: block;
+	color: #ffc107;
+	border-bottom: 3px solid #fff;
+	transition: 1s ease;
+}
+.menus ul li a:hover{
+	border-bottom: 3px solid #ffc107;
+	text-decoration: none;
+}
