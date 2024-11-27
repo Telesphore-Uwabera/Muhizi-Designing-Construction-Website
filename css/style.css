@@ -1086,3 +1086,71 @@ a:focus {
       text-stroke: 0.8px #2c7873;
   }
 }
+.info_section {
+  background: #6c8eb1;
+  padding: 40px 0;
+}
+
+.info_contact a {
+  display: block;
+  margin-bottom: 10px;
+  color: #004445;
+  text-decoration: none;
+}
+
+.info_contact a i {
+  margin-right: 10px;
+  color: #004445;
+}
+
+.info_contact a:hover {
+  text-decoration: underline;
+}
+
+.social_box img {
+  display: inline-block;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info_social a {
+  font-size: 20px;
+  color: #004445;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.info_social a:hover {
+  color: #2c7873;
+}
+
+.info_menu li {
+  list-style: none;
+}
+
+.info_menu li a {
+  color: #004445;
+  text-decoration: none;
+}
+
+.info_menu li a:hover {
+  text-decoration: underline;
+}
+
+.info_detail h5, .info_form h5 {
+  color: #004445;
+  font-weight: bold;
+}
+
+.btn-success a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .info_top .row {
+    text-align: center;
+  }
+  .info_bottom {
+    margin-top: 30px;
+  }
+}
